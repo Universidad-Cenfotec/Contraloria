@@ -6,3 +6,4 @@ https://github.com/cgrcostarica/fiscalizacion_infra_IA
 ## Organización del repositorio
 - "code" códigos para los dispositivos utilizados
 - "design" Archivos 2D y 3D de diseño de estructuras de fabricacióny soporte del sistema
+- "documentos" Documentación de respaldo (presentaciones, reportes técnicos, documentos de soporte)
