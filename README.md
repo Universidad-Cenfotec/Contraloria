@@ -14,6 +14,7 @@ Estes es un proyecto realizado por **Universidad Cenfotec**, en cooperación con
 ## Investigadores Principales
 
 Dr. Tomás de Camino Beck
+
 Dr. Luis Carlos Naranjo
 
 # Asistentes de Investigación y Fabricación
