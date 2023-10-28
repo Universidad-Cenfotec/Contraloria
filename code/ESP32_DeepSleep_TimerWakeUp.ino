@@ -5,6 +5,7 @@ Ejemplo sencillo de Sleep
 #define uS_TO_M_FACTOR 60000000ULL  /* conversion de microsegundos a minutos */
 #define TIME_TO_SLEEP  1        /* tiempo en minutos de sleep */
 
+//Almacena variable en el reloj
 RTC_DATA_ATTR int bootCount = 0;
 
 
