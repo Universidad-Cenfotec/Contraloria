@@ -1,5 +1,7 @@
 /*
-Ejemplo sencillo de Sleep
+Tomás de Camino Beck
+Universidad Cenfotec
+Ejemplo sencillo de Sleep en ESP32
 */
 
 #define uS_TO_M_FACTOR 60000000ULL  /* conversion de microsegundos a minutos */
