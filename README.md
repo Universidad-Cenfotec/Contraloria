@@ -11,6 +11,8 @@ https://github.com/cgrcostarica/fiscalizacion_infra_IA
 
 Estes es un proyecto realizado por **Universidad Cenfotec**, en cooperación con la Contraloría General de la República, con fondos de la GIZ.
 
+Aunque exiten tecnologías en el mercado que podría cumplir esta función, este proyecto va dentro de la filosofía "Nuestros para fabricar, adaptar, reparar y crecer", es decir, la intencióne s crear tecnología sobre la cual se pueda evolucionar, y cuyo mejoramiento dependa de nuestras propias acciones y no de la capacidad de un proveedor.
+
 ## Investigadores Principales
 
 Dr. Tomás de Camino Beck
