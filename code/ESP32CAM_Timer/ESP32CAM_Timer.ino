@@ -1,4 +1,4 @@
-// Adadptado por Tomás de Camino
+// Adadptado por Tomás de Camino Beck
 // Universidad Cenfotec
 
 #include <WiFi.h>
