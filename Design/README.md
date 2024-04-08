@@ -1,9 +1,11 @@
 # Archivos de Diseño
 
-1. Camera_Box2_3.stl  Es una base que acopla con la caja del panel solar Voltaic
-2. Camera_Box_Full.stl  Caja completa modificable.
-3. Box_Camera_V1.stl versión final de la caja. Esta no tiene ventana para la cámara
-
+1. Caja_Camara_P1.stl  Caja que contiene la cámara
+2. Caja_Camara_P2.stl  Tapa de la caja de cámara
+3. Union_Camara_Poste.stl Pieza que sostiene la cámara al poste
+4. Visor_Camara.stl Visor que proteje el elnte de lluvia y luz
+5. Cubierta_Lente.svg  archivo para corte láser que ptotege el lente del ESP32CAM
+6. Anclaje_Techo.stl Pieza que sostiene un techo de zinc al poste
 
 # Recomendaciones para imprimir 3D
 
