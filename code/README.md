@@ -1,18 +1,24 @@
 # Códigos proyecto contraloría
-La ESP32-CAM está programada para capturar imágenes a intervalos regulares, se conecta a la red Wi-Fi utilizando las credenciales proporcionadas y carga la imagen capturada al script de Google Drive configurado en la variable 'myScript'. El script de Google Drive recibe y almacena la imagen, permitiendo su visualización y acceso a través de Google Drive.
 
-**Conectar ESP32-CAM a Google Drive**
-**1.** Creación del Script en Google Drive:
-Se crea un script en Google Drive utilizando el archivo upload.gs. Este script es esencial para recibir y almacenar las imágenes capturadas por el ESP32-CAM.
+El código proporcionado realiza varias operaciones con un módulo de cámara ESP32CAM, culminando en el envío de una imagen a Google Drive. Una característica notable es el uso de `digitalWrite(donepin, HIGH)`, que se emplea para indicar la finalización de un proceso, activando un temporizador que apaga el controlador. A continuación, se detalla cómo se integra esta función dentro del flujo de trabajo del código:
 
-**2.** Configuración de Permisos del Script:
-Los permisos del script se configuran de manera que sea público, lo que significa que cualquier persona con el enlace puede acceder a él.
+1. **Establecimiento de la conexión WiFi**:
+   - El ESP32 intenta conectarse a la red WiFi especificada. Si no logra conectarse dentro de un número máximo de intentos (`MAX_TRIES`), se considera que ha fallado.
+   - Al fallar, ejecuta `digitalWrite(donepin, HIGH)` para indicar que el proceso ha terminado y activa un temporizador externo, que eventualmente apaga el controlador.
 
-**3.** Copia de la URL del Script:
-Se copia la URL del script recién creado, que será necesaria para que el ESP32-CAM se comunique con el script y cargue las imágenes en Google Drive.
+2. **Sincronización de tiempo y verificación de horario**:
+   - Después de establecer la conexión WiFi, el ESP32 sincroniza su reloj con un servidor NTP.
+   - Verifica si la hora actual está fuera del rango establecido (antes de las 5 a.m. o después de las 6 p.m.). Si es así, se activa el temporizador externo mediante `digitalWrite(donepin, HIGH)` para apagar el dispositivo.
 
-**4.** Reemplazo de la URL en el Archivo esp32cam-gdrive.ino:
-La URL del script de Google se pega en el archivo esp32cam-gdrive.ino, específicamente en la variable llamada 'myScript'. Esto permite al ESP32-CAM saber dónde debe cargar las imágenes capturadas.
+3. **Inicialización y configuración de la cámara**:
+   - Se configura y activa la cámara. Si la inicialización falla, el sistema se reinicia.
+   - Al finalizar la captura y el envío de la imagen, se activa nuevamente el temporizador externo con `digitalWrite(donepin, HIGH)`, indicando que el proceso ha concluido.
 
-**5.** Credenciales de la Red Inalámbrica:
-En el mismo archivo esp32cam-gdrive.ino, se deben proporcionar las credenciales de la red inalámbrica. Esto es importante para que el ESP32-CAM pueda conectarse a la red Wi-Fi y transferir las imágenes al script de Google Drive.
+4. **Función `saveCapturedImage()`**:
+   - Realiza la captura de la imagen, la codificación en base64 y la envía a Google Drive.
+   - Tras enviar la imagen, se activa el temporizador externo con `digitalWrite(donepin, HIGH)` para indicar el fin del proceso.
+
+5. **Apagado del sistema**:
+   - Cada vez que se llama a `digitalWrite(donepin, HIGH)`, se señala a un circuito externo (probablemente un temporizador o un controlador de potencia) para que inicie el proceso de apagado del ESP32.
+
+En resumen, el uso de `digitalWrite(donepin, HIGH)` en varios puntos del código sirve como un mecanismo de señalización para controlar el apagado del dispositivo mediante un temporizador externo. Esta funcionalidad asegura que el ESP32 se apague de manera controlada después de completar tareas críticas como la conexión a la red, la sincronización del tiempo, la captura y el envío de imágenes.
