@@ -1,6 +1,6 @@
 # Códigos proyecto contraloría
 
-El código proporcionado realiza varias operaciones con un módulo de cámara ESP32CAM, culminando en el envío de una imagen a Google Drive. Una característica notable es el uso de `digitalWrite(donepin, HIGH)`, que se emplea para indicar la finalización de un proceso, activando un temporizador que apaga el controlador. A continuación, se detalla cómo se integra esta función dentro del flujo de trabajo del código:
+El código ESP32CAM_Timer_CGR_Day.ino proporcionado realiza varias operaciones con un módulo de cámara ESP32CAM, culminando en el envío de una imagen a Google Drive. Una característica notable es el uso de `digitalWrite(donepin, HIGH)`, que se emplea para indicar la finalización de un proceso, activando un temporizador que apaga el controlador. A continuación, se detalla cómo se integra esta función dentro del flujo de trabajo del código:
 
 1. **Establecimiento de la conexión WiFi**:
    - El ESP32 intenta conectarse a la red WiFi especificada. Si no logra conectarse dentro de un número máximo de intentos (`MAX_TRIES`), se considera que ha fallado.
