@@ -18,7 +18,7 @@ const char* password = "your_password";  // Tu contraseña de red
 
 // ***************************
 
-//Script para conectar al Google Drive ESP32-CAM3
+//Script para conectar al Google Drive
 const char* myDomain = "script.google.com";
 String myScript = "/macros/";    //Replace with your own url
 
