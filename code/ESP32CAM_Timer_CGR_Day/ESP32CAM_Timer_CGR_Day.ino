@@ -12,26 +12,15 @@
 
 //******* Datos de Red ******
 //MIFI
-//const char* ssid = "MIFI_2E80";       // El SSID de tu red
-//const char* password = "1234567890";  // Tu contraseña de red
-const char* ssid = "MW45AN_02F4";           // El SSID de tu red
-const char* password = "32749016";  // Tu contraseña de red
+const char* ssid = "your_SSID";           // El SSID de tu red
+const char* password = "your_password";  // Tu contraseña de red
 
 
 // ***************************
 
 //Script para conectar al Google Drive ESP32-CAM3
 const char* myDomain = "script.google.com";
-String myScript = "/macros/s/AKfycbxEToeul4q3XOJkKVuxuGjpSxDmXlO0-ybotzowgrMk8k1uiZRPno08npyRezBPjhZr/exec";    //Replace with your own url
-
-//Script para conectar al Google Drive ESP32-CAM2
-//const char* myDomain = "script.google.com";
-//String myScript = "/macros/s/AKfycbwvL7QiExuasa0IfVcPKoOIh0DqEGUANb78b5CioMsVGTzMhCBXbmTPGBMQ0u6wvJs/exec";    //Replace with your own url
-
-
-//Script para conectar al Google Drive ESP32-CAM
-//const char* myDomain = "script.google.com";
-//String myScript = "/macros/s/AKfycbwXVIt71tL67ctq4JTQdN3dRUDulb6BKs7wyVt7v_e5rSqyPcAn7o-Hs3OuT2gw_GEv/exec";  // Remplaza con tu propio URL
+String myScript = "/macros/";    //Replace with your own url
 
 String myFilename = "filename=ESP32-CAM.jpg";
 String mimeType = "&mimetype=image/jpeg";
@@ -44,9 +33,6 @@ int waitingTime = 10000;
 const char* ntpServer = "pool.ntp.org";
 const long  gmtOffset_sec = -25200;  // Ajusta esto según tu zona horaria, en segundos (-7 horas)
 const int   daylightOffset_sec = 3600; // Ajusta esto si tu zona horaria tiene horario de verano
-
-
-
 
 //Datos de Cámara
 #define CAMERA_MODEL_AI_THINKER
@@ -70,9 +56,8 @@ const int   daylightOffset_sec = 3600; // Ajusta esto si tu zona horaria tiene h
 
 #define MAX_TRIES 50
 
-
 const int donepin = 12;  //12 en placas de CENFOTEC , 2 en prototipo
-int tries = 0;
+int tries = 0; //intentos de WiFi
 
 void setup() {
   pinMode(donepin, OUTPUT);
