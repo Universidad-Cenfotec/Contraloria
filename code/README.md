@@ -21,4 +21,3 @@ El código proporcionado realiza varias operaciones con un módulo de cámara ES
 5. **Apagado del sistema**:
    - Cada vez que se llama a `digitalWrite(donepin, HIGH)`, se señala a un circuito externo (probablemente un temporizador o un controlador de potencia) para que inicie el proceso de apagado del ESP32.
 
-En resumen, el uso de `digitalWrite(donepin, HIGH)` en varios puntos del código sirve como un mecanismo de señalización para controlar el apagado del dispositivo mediante un temporizador externo. Esta funcionalidad asegura que el ESP32 se apague de manera controlada después de completar tareas críticas como la conexión a la red, la sincronización del tiempo, la captura y el envío de imágenes.
