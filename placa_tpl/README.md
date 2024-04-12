@@ -10,4 +10,4 @@ Para actualizciones de esta placa puede revisar [este repositorio](https://githu
 
 La placa se desarrolla a partir del chip TPL5110.  En la fotografía se muestra 1. Pruebas breadboard, 2. fabricado protoboard, 3. placa final fabricada en china
 
-![prototipado]()
+![prototipado](placa_tpl/TPL_Prototipo.jpg)
