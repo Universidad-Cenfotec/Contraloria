@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "local_lib_tpl_esp32_cam")(type "KiCad")(uri "${KIPRJMOD}/local_lib_tpl_esp32_cam.kicad_sym")(options "")(descr ""))
+)
