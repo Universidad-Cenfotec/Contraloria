@@ -1,4 +1,4 @@
-# cnft-tpl-esp32cam
+# Placa TPL para ESP32CAM
 
 Shield para cámara ESP32CAM, con chip TPL para fotos a intervalos y bajo consumo de batería. Diseñado por Tomás de Camino Beck, con ayuda de CrCibernetica.com, para poryecto GIZ-CGR-Universidad Cenfotec.
 
