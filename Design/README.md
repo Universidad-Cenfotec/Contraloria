@@ -12,3 +12,21 @@
 - Resolución: 0.3mm
 - Capas y Paredes: forzar cuatro capas de paredes
 - Relleno: 60% con patrón triangular para darle más resistencia
+
+# Historial de Diseño
+
+## Versión 1
+
+Problemas:
+- Tapa difícil de colocar
+- Cavidad permite pocos tipos de batería
+- Se necesita dar vuelta a la imágen
+- "Lente" difícil de instalar, y no se puede reparar.
+- No resiste golpes muy fuertes
+
+## Versión 2
+
+Problemas:
+- Lente expuesto se moja fácilmente
+- Acrílico genera reflejos que hace que la foto se sobre exponga
+- Union a anclaje hace que cámara quede muy separada del techo
