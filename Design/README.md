@@ -11,9 +11,10 @@
 
 - Plástico: PLA MAX
 - Pintura exterior esmalte blanco (protección rayos UV)
-- Resolución: 0.3mm
+- Resolución: 0.2mm
 - Capas y Paredes: forzar cuatro capas de paredes
 - Relleno: 60% con patrón triangular para darle más resistencia
+- La impresión tarda aproximadamente 9h25m en una Prusa MK4 en modo impresión rápida
 
 --- 
 ![](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/camara_completa.JPG)
