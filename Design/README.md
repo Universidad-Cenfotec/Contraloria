@@ -16,6 +16,9 @@
 --- 
 # Instrucciones de Armado de la Cámara
 
+- Las instrucciones de armado de la cámara las ueden ver en el seiguiente video
+- El ESP32, se conecta a la placa TPL5110, a través de el adaptador de plástico como se muestra en la siguiente foto
+  ![]()
 
 ---
 # Historial de Diseño
