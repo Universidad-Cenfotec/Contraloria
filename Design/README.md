@@ -9,6 +9,8 @@
 
 # Recomendaciones para imprimir 3D
 
+- Plástico: PLA MAX
+- Pintura exterior esmalte blanco (protección rayos UV)
 - Resolución: 0.3mm
 - Capas y Paredes: forzar cuatro capas de paredes
 - Relleno: 60% con patrón triangular para darle más resistencia
