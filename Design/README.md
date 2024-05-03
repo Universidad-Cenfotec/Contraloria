@@ -20,6 +20,8 @@
 - El ESP32, se conecta a la placa TPL5110, a través de el adaptador de plástico como se muestra en la siguientes fotos
   ![ESP32 Clip](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/esp32_clip.JPG)
   ![](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/esp32_clip2.JPG)
+- Una vez conectado el ESP32 a la placa, se conectan las baterías, seinserta en la cámara, con cuidado, como se muestra en las siguientes fotografías
+
 
 ---
 # Historial de Diseño
