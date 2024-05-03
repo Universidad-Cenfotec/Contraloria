@@ -14,6 +14,7 @@
 - Relleno: 60% con patrón triangular para darle más resistencia
 
 --- 
+![](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/camara_completa.JPG)
 # Instrucciones de Armado de la Cámara
 
 ## Caja de la cámara
