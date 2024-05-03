@@ -50,6 +50,73 @@ Para cambiar el acceso WiFi en el código proporcionado, sigue estos pasos:
 
 
 ---
+
+# Crear acceso para subir fotos a Google Drive
+
+### 1. Crear el Acceso a Google Drive:
+
+#### 1.1. Crear una Carpeta en Google Drive:
+   - Abre Google Drive en tu navegador web.
+   - Crea una nueva carpeta donde se guardarán las imágenes que envíe tu ESP32-CAM.
+
+#### 1.2. Obtener el ID de la Carpeta:
+   - Haz clic derecho en la carpeta que acabas de crear y selecciona "Obtener enlace".
+   - Copia el ID de la carpeta de la URL. El ID de la carpeta es la parte de la URL después de `/folders/`.
+
+#### 1.3. Crear un Nuevo Proyecto en Google Apps Script:
+   - Visita el [Editor de Google Apps Script](https://script.google.com/) y crea un nuevo proyecto.
+
+#### 1.4. Escribir el Script en Google Apps Script:
+   - En el editor de scripts, copia y pega el siguiente código JavaScript:
+
+   ```javascript
+   function doPost(e) {
+     var folderId = "ID_de_tu_Carpeta_en_Google_Drive";
+     var folder = DriveApp.getFolderById(folderId);
+     var blob = e.postData.getBlob();
+     var file = folder.createFile(blob);
+     return ContentService.createTextOutput("Archivo guardado: " + file.getName());
+   }
+   ```
+
+   - Reemplaza `"ID_de_tu_Carpeta_en_Google_Drive"` con el ID de la carpeta que obtuviste anteriormente.
+
+#### 1.5. Publicar el Script:
+   - Haz clic en `Editar` y selecciona `Desplegar como web app`.
+   - En la ventana emergente, elige `Quien tiene acceso a la aplicación: Cualquier persona, incluso anónimos`.
+   - Haz clic en `Desplegar` y luego en `OK`.
+   - Copia el URL que se genera, lo necesitarás más adelante.
+
+### 2. Modificar el Código para tener Acceso:
+
+#### 2.1. Configurar los Datos de Red WiFi:
+   - Abre el código en C/C++ de tu ESP32-CAM.
+   - Busca la sección "Datos de Red" y cambia los valores de `ssid` y `password` con los de tu red WiFi:
+
+   ```cpp
+   //******* Datos de Red ******
+   const char* ssid = "nombre_de_tu_red_wifi";       // El SSID de tu red
+   const char* password = "tu_contraseña_wifi";  // Tu contraseña de red
+   // ***************************
+   ```
+
+   - Sustituye `"nombre_de_tu_red_wifi"` y `"tu_contraseña_wifi"` por el nombre de tu red WiFi y tu contraseña respectivamente.
+
+#### 2.2. Configurar el Script de Google Apps Script:
+   - Busca la sección donde se define `myDomain` y `myScript`.
+   - Reemplaza `myScript` con el URL del script de Google Apps Script que generaste anteriormente.
+
+   ```cpp
+   const char* myDomain = "script.google.com";
+   String myScript = "/macros/s/TU_ID_EXEC";    // Reemplaza con tu propio URL
+   ```
+
+   - Reemplaza `"TU_ID_EXEC"` con el ID de ejecución que obtuviste del URL del script.
+
+---
+
+
+
 # Instrucciones generales de programación de Placa ESP32-CAM
 
 1. **Instalar el Arduino IDE:**
