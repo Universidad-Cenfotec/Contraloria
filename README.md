@@ -1,3 +1,4 @@
+![camara IoT](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/header.JPG)
 # Proyecto Fiscalización de Obra Pública IoT
 
 El repositorio del piloto realiado por la contraloría se encuentra en este link:
