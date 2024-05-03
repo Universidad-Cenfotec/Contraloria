@@ -30,3 +30,5 @@ Problemas:
 - Lente expuesto se moja fácilmente
 - Acrílico genera reflejos que hace que la foto se sobre exponga
 - Union a anclaje hace que cámara quede muy separada del techo
+
+Todo estos problemas han sido corregidos en la verisón final publicada
