@@ -50,7 +50,7 @@ Para cambiar el acceso WiFi en el código proporcionado, sigue estos pasos:
 
 
 ---
-# INstrucciones generales de programación de PLaca ESP32-CAM
+# Instrucciones generales de programación de Placa ESP32-CAM
 
 1. **Instalar el Arduino IDE:**
    - Descarga e instala la última versión del Arduino IDE desde el sitio web oficial: https://www.arduino.cc/en/software.
