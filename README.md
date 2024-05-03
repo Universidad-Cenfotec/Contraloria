@@ -27,3 +27,5 @@ M.Sc. Rodrigro Herrero
 # Asistentes de Investigación y Fabricación
 
 Estudiante Jeffry Valverde
+
+![Camaras Instaladas](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/footer.JPG)
