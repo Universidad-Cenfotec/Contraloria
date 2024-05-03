@@ -13,7 +13,8 @@
 - Capas y Paredes: forzar cuatro capas de paredes
 - Relleno: 60% con patrón triangular para darle más resistencia
 
---- Instrucciones de Armado de la Cámara
+--- 
+# Instrucciones de Armado de la Cámara
 
 
 ---
