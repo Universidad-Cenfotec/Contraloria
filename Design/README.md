@@ -16,11 +16,15 @@
 --- 
 # Instrucciones de Armado de la Cámara
 
-- Las instrucciones de armado de la cámara las ueden ver en el seiguiente video
+- Las instrucciones de armado de la cámara las ueden ver en el siguiente video
+- Cambiar el WiFi y direcciónd e Google Drive, siguiendo estas instrucciones
 - El ESP32, se conecta a la placa TPL5110, a través de el adaptador de plástico como se muestra en la siguientes fotos
   ![ESP32 Clip](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/esp32_clip.JPG)
   ![](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/esp32_clip2.JPG)
 - Una vez conectado el ESP32 a la placa, se conectan las baterías, seinserta en la cámara, con cuidado, como se muestra en las siguientes fotografías
+![](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/esp32_camara.JPG)
+![](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/esp32_camara2.JPG)
+- Una vez cerrada la cámara probar que suba las fotos.
 
 
 ---
