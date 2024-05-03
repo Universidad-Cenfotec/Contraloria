@@ -26,6 +26,13 @@
 ![](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/esp32_camara2.JPG)
 - Una vez cerrada la cámara probar que suba las fotos.
 
+# Modificación de los intervalos de fotografía
+- Para modificar en intervalo en que el ESP32 toma las fotos, seguir las instrucciones de este video.
+
+# Cargado de baterías
+
+- Para el cargado de baterías seguir las instrucciones del siguiente video
+
 
 ---
 # Historial de Diseño
