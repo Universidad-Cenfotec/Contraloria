@@ -4,7 +4,7 @@ Shield para cámara ESP32CAM, con chip TPL para fotos a intervalos y bajo consum
 
 Para actualizciones de esta placa puede revisar [este repositorio](https://github.com/CRCibernetica/cnft-tpl-esp32cam)
 
-![Placa TPL](/placa_tpl/placa_tpl.jpg)
+![Placa TPL]([/placa_tpl/placa_tpl.jpg](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/placa_tpl.jpg.JPG))
 
 # Prototipado de la placa
 
