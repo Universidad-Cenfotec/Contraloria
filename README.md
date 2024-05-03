@@ -20,6 +20,10 @@ Dr. Tomás de Camino Beck
 
 Dr. Luis Carlos Naranjo
 
+## Investigadores de apoyo
+
+M.Sc. Rodrigro Herrero
+
 # Asistentes de Investigación y Fabricación
 
 Estudiante Jeffry Valverde
