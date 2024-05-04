@@ -1,7 +1,9 @@
 ![camara IoT](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/header.JPG)
 # Proyecto Fiscalización de Obra Pública IoT
 
-El repositorio del piloto realiado por la contraloría se encuentra en este link:
+Este es el resultado de un proyecto de investigación en coordinación con la Contraloría General de la República de Costa Rica y la cooperación alemana GIZ, para el desarrollo de cámaras IoT de bajo costo, que permitan monitorear y fiscalizar obras de construcción pública, incorporando ideas novedosas para el desarrollo de tecnología local y de bajo costo, además de la utilización de Inteligencia artificial para identificación de patrones de progreso de construcción pública. Este es el repositorio con todos los resultados del proyecto, y que permite su reproducción abierta.
+
+El repositorio del piloto realizado por la contraloría se encuentra en este link:
 https://github.com/cgrcostarica/fiscalizacion_infra_IA
 
 ## Organización del repositorio
