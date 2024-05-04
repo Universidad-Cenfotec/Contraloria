@@ -12,6 +12,7 @@ La placa se desarrolla a partir del chip TPL5110.  En la fotografía se muestra 
 
 ![prototipado](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/placa_tpl/TPL_Prototipo.jpg)
 
-#Breadboard
+# Breadboard
 
 Utilizando el TPL5110 de Adafruir puede construir el circuito en un breadboard siguiendo el siguiente esquema:
+![](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/tpl5110_pin2.png)
