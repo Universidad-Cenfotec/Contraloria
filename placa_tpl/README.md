@@ -16,3 +16,4 @@ La placa se desarrolla a partir del chip TPL5110.  En la fotografía se muestra 
 
 Utilizando el TPL5110 de Adafruir puede construir el circuito en un breadboard siguiendo el siguiente esquema:
 ![](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/tpl5110_pin2.png)
+Nota: El capacitor puede variar depediendo de la batería que se utilice. Para este proyecto se utilizó 47uF 16v
