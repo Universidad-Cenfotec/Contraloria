@@ -11,7 +11,7 @@ https://github.com/cgrcostarica/fiscalizacion_infra_IA
 - "design" Archivos 2D y 3D de diseño de estructuras de fabricacióny soporte del sistema
 - "documentos" Documentación de respaldo (presentaciones, reportes técnicos, documentos de soporte)
 - "imagenes" conteien las imágenes que se utilizan en este repositorio
-- "placaTPL" detalles del diseño de la placa TPL, y los esquemas para fabricación
+- "placa_tpl" detalles del diseño de la placa TPL, y los esquemas para fabricación
 
 
 Estes es un proyecto realizado por **Universidad Cenfotec**, en cooperación con la Contraloría General de la República, con fondos de la GIZ.
