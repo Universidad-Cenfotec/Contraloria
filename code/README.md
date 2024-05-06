@@ -24,6 +24,11 @@ El código ESP32CAM_Timer_CGR_Day.ino proporcionado realiza varias operaciones c
 ¡Claro! Aquí tienes un conjunto básico de instrucciones para programar un ESP32-CAM utilizando el Arduino IDE:
 
 ---
+# Programando el ESP32-CAM
+
+- Para una explicación completa de como cargar el código a el ESP32-CAM, utilizando el Arduino IDE, lo encontrarán en [este video](https://drive.google.com/file/d/1rJqG5vgmPwFNBq3uttZ2uOI0OXYprOTJ/view?usp=sharing).
+
+---
 # Cambio de SSID y Password para red MiFi/WiFi
 
 Para cambiar el acceso WiFi en el código proporcionado, sigue estos pasos:
