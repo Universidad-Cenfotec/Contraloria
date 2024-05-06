@@ -7,8 +7,8 @@ El repositorio del piloto realizado por la contraloría se encuentra en este lin
 https://github.com/cgrcostarica/fiscalizacion_infra_IA
 
 ## Organización del repositorio
-- "code" códigos para los dispositivos utilizados
-- "design" Archivos 2D y 3D de diseño de estructuras de fabricacióny soporte del sistema
+- "code" códigos para los dispositivos utilizados. e instrucciones para programar el microcontrolador
+- "design" Archivos 2D y 3D de diseño de estructuras de fabricación y soporte del sistema. Video instruccional de ensamblado de la cámara
 - "documentos" Documentación de respaldo (presentaciones, reportes técnicos, documentos de soporte)
 - "imagenes" conteien las imágenes que se utilizan en este repositorio
 - "placa_tpl" detalles del diseño de la placa TPL, y los esquemas para fabricación
