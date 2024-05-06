@@ -1,3 +1,7 @@
+# Proceso de Diseño
+
+- El proceso de diseño se explica en el [siguiente video](https://drive.google.com/file/d/1DGaU7ya0ZxTkijEyFO8wcMf-l3KS4jHS/view?usp=sharing)
+
 # Archivos de Diseño
 
 1. Caja_Camara_P1.stl  Caja que contiene la cámara
