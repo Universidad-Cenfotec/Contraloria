@@ -25,7 +25,7 @@
 # Instrucciones de Armado de la Cámara
 
 ## Caja de la cámara
-- Las instrucciones de armado de la cámara las ueden ver en el siguiente video
+- Las instrucciones de armado de la cámara las ueden ver en el [siguiente video](https://drive.google.com/file/d/1R8fjxk--XU2Z1inmcDHXZ_iKdpq5K-TY/view?usp=sharing)
 ## Incorporar el ESP32 a la caja
 - Cambiar el WiFi y direcciónd e Google Drive, siguiendo estas instrucciones
 - El ESP32, se conecta a la placa TPL5110, a través de el adaptador de plástico como se muestra en la siguientes fotos
