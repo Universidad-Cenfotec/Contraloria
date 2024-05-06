@@ -118,11 +118,11 @@ Para cambiar el acceso WiFi en el código proporcionado, sigue estos pasos:
 # Ajuste de los intervalos de tiempo
 
 - Los intervalos en los que se toman la fotografías se ajustan físicamente en la placa TPL, regulando el peqieño potenciómetro de la placa TPL, como se muestra en la siguiente foto.
-
+![](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/Ajuste_TPL1.JPG)
 
 - Cuando el potenciómetro está completamente a la izquierda el intervalo de tiempo es de aproximadamente 2 horas, mientras que cuando está completamente a la derecha, el intervalo es de menos de 1 minuto.  Para efectos del proyecto (intervalo de 10 min), se cooca el potenciómetri alrededor de la 1 del reloj, como se ven en la siguiente foto.
 
-
+![](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/Ajuste_TPL2.JPG)
 
 ---
 
