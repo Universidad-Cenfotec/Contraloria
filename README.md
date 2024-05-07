@@ -36,14 +36,14 @@ Estudiante Jeffry Valverde
 
 # Etapa de Inteligencia Artificial
 
-**Objetivo:** Crear un modelo de inteligencia artificial que permita realizar detección de objetos las imagenes captadas en la etapa de IOT relacionadas al proyecto de contrucción de la Escuela de Pocosi. 
+**Objetivo:** Crear un modelo de inteligencia artificial que permita realizar la detección de objetos en las imagenes captadas en la etapa de IOT relacionadas al proyecto de contrucción de la Escuela de Pocosi. 
 
 ## Investigadores Principales
 M.Sc. Rodrigo Herrera
 
-## Asistentes de Investigación y Fabricación
- Gabriel Lobo
-
+## Asistentes de Investigación y Desarrollo
+Gabriel Lobo
+Dr. Tomás de Camino Beck
 
 La documentación necesaria de la etapa de IA se encuentra en la carpeta "Documentos Etapa IA-GIZ-CENFOTEC", dentro de la misma contiene la siguiente organización.
 - "Códigos" :
