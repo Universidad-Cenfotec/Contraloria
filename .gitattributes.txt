@@ -1,0 +1,5 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# Specify specific line ending settings for certain file types.
+*.ipynb text eol=lf
