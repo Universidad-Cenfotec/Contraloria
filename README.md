@@ -55,5 +55,7 @@ La documentación necesaria de la etapa de IA se encuentra en la carpeta "Docume
 - "Imagenes y Etiquetas
   - Etiquetas necesarias para llevar a cabo el proceso de entrenamiento y evaluación
   - Ejemplo de 5 imagenes
+
+![Ejemplo de Inferencia](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/Ejemplo_Inferencia.jpg) 
  
  
