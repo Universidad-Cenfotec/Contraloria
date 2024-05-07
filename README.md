@@ -26,10 +26,34 @@ Dr. Luis Carlos Naranjo
 
 ## Investigadores de apoyo
 
-M.Sc. Rodrigro Herrero
+M.Sc. Rodrigo Herrera
 
 # Asistentes de Investigación y Fabricación
 
 Estudiante Jeffry Valverde
 
 ![Camaras Instaladas](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/footer.JPG)
+
+# Etapa de Inteligencia Artificial
+
+##**Objetivo:** Crear un modelo de inteligencia artificial que permita realizar detección de objetos las imagenes captadas en la etapa de IOT relacionadas al proyecto de contrucción de la Escuela de Pocosi. 
+
+## Investigadores Principales
+M.Sc. Rodrigo Herrera
+
+# Asistentes de Investigación y Fabricación
+ Gabriel Lobo
+
+
+La documentación necesaria de la etapa de IA se encuentra en la carpeta "Documentos Etapa IA-GIZ-CENFOTEC", dentro de la misma contiene la siguiente organización.
+- "Códigos" :
+  - Los archivos del docker que va en el proceso de producción *sin los modelos
+  - El proceso de entrenamiento
+  - Autenticación de Google Drive
+- "Documentación"
+  - La documentación necesaria para todos los procesos
+- "Imagenes y Etiquetas
+  - Etiquetas necesarias para llevar a cabo el proceso de entrenamiento y evaluación
+  - Ejemplo de 5 imagenes
+ 
+ 
