@@ -41,7 +41,7 @@ Estudiante Jeffry Valverde
 ## Investigadores Principales
 M.Sc. Rodrigo Herrera
 
-# Asistentes de Investigación y Fabricación
+## Asistentes de Investigación y Fabricación
  Gabriel Lobo
 
 
