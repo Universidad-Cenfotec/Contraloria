@@ -43,6 +43,7 @@ M.Sc. Rodrigo Herrera
 
 ## Asistentes de Investigación y Desarrollo
 Gabriel Lobo
+
 Dr. Tomás de Camino Beck
 
 La documentación necesaria de la etapa de IA se encuentra en la carpeta "Documentos Etapa IA-GIZ-CENFOTEC", dentro de la misma contiene la siguiente organización.
@@ -55,6 +56,17 @@ La documentación necesaria de la etapa de IA se encuentra en la carpeta "Docume
 - "Imagenes y Etiquetas
   - Etiquetas necesarias para llevar a cabo el proceso de entrenamiento y evaluación
   - Ejemplo de 5 imagenes
+- "Modelos"
+  - Contiene un txt que indica donde se puede encontrar los modelos
+ 
+## Resultados de Modelos
+
+Se han compartido 1 modelo principal. 
+ - Modelo_1_29
+ - - Metricas
+   - Promedio de IoU: 82.7%
+   - Sensitividad: 85.4% (Equivale a las predicciones verdaderamente predichas)
+
 
 ![Ejemplo de Inferencia](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/Ejemplo_Inferencia.jpg) 
  
