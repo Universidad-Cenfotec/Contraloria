@@ -69,5 +69,6 @@ Se han compartido 1 modelo principal.
 
 
 ![Ejemplo de Inferencia](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/Ejemplo_Inferencia.jpg) 
- 
+
+![Ejemplo 2 de Inferencia](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/Ejemplo_Inferencia 2.jpg) 
  
