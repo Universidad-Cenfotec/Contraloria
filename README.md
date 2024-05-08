@@ -62,10 +62,10 @@ La documentación necesaria de la etapa de IA se encuentra en la carpeta "Docume
 ## Resultados de Modelos
 
 Se han compartido 1 modelo principal. 
- - Modelo_1_29
+- Modelo_1_29
   - Metricas
-   - Promedio de IoU: 82.7%
-   - Sensitividad: 85.4% (Equivale a las predicciones verdaderamente predichas)
+    - Promedio de IoU: 82.7%
+    - Sensitividad: 85.4% (Equivale a las predicciones verdaderamente predichas)
 
 ### Ejemplo de Inferencia 1
 ![Ejemplo de Inferencia](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/Ejemplo_Inferencia.jpg) 
