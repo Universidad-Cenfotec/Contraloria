@@ -67,7 +67,15 @@ Se han compartido 1 modelo principal.
    - Promedio de IoU: 82.7%
    - Sensitividad: 85.4% (Equivale a las predicciones verdaderamente predichas)
 
-
+### Ejemplo de Inferencia 1
 ![Ejemplo de Inferencia](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/Ejemplo_Inferencia.jpg) 
 
+
+### Ejemplo de Inferencia 2
+En este ejemplo se puede observar 2 cajas de diferente color en cada objeto. 
+-La caja Azul es la caja de la etiqueta real
+-La caja Roja es la caja de la predicción realizada por el modelo
+Fácilemente se puede apreciar la efectividad del modelo en hacer su trabajo de predicción. 
 ![Ejemplo 2 de Inferencia](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/Ejemplo_Inferencia2.jpg)
+
+*Se debe tomar en cuenta que este modelo esta entrenado solamente con imagenes captadas por las camaras realizadas en la etapa de IoT para el proyecto de construcción de la Escuela de Pocosí, por ende este modelo esta sobre-entrenado para realizar inferencias para este proyecto, en caso de que se ponga el modelo a realizar inferencias de otras imagenes, o proyectos diferentes, es posible que el modelo no sea lo esperado en su eficiencia.
