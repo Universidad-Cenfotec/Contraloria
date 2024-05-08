@@ -63,7 +63,7 @@ La documentación necesaria de la etapa de IA se encuentra en la carpeta "Docume
 
 Se han compartido 1 modelo principal. 
  - Modelo_1_29
- - - Metricas
+  - Metricas
    - Promedio de IoU: 82.7%
    - Sensitividad: 85.4% (Equivale a las predicciones verdaderamente predichas)
 
