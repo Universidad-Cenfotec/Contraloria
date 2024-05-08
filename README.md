@@ -74,9 +74,9 @@ Se han compartido 1 modelo principal.
 ### Ejemplo de Inferencia 2
 En este ejemplo se puede observar 2 cajas de diferente color en cada objeto. 
 
--La caja Azul es la caja de la etiqueta real
+- La caja Azul es la caja de la etiqueta real
 
--La caja Roja es la caja de la predicción realizada por el modelo
+- La caja Roja es la caja de la predicción realizada por el modelo
 
 Fácilemente se puede apreciar la efectividad del modelo en hacer su trabajo de predicción. 
 ![Ejemplo 2 de Inferencia](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/Ejemplo_Inferencia2.jpg)
