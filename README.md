@@ -81,5 +81,15 @@ En este ejemplo se puede observar 2 cajas de diferente color en cada objeto.
 Fácilemente se puede apreciar la efectividad del modelo en hacer su trabajo de predicción. 
 ![Ejemplo 2 de Inferencia](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/Ejemplo_Inferencia2.jpg)
 
+### Ejemplo de tabla de resultados
+Parte del objetivo es analizar las imagenes que se obtengan por día y de estas obtener un archivo CSV en el cual permita analizar los resultados de una forma ágil y obtener resultados de analísis del monitoreo en las obras. 
+
+En la siguiente imagen se observa un ejemplo del archivo CSV creado de las inferencias realizadas por el modelo, el mismo contiene 4 columnas
+- Nombre de la Imagen = imagen analizada
+- Clase = predicción de los objetos encontrados
+- Probabilidad = probabilidad del objeto encontrado
+- Recuadro = las coordenadas necesarias de donde se encontro el objeto en la imagen analizada
+
+![Tabla de Resultados](https://github.com/Universidad-Cenfotec/Contraloria/blob/main/imagenes/Resultado_implementacion.jpg)
 
 *Se debe tomar en cuenta que este modelo esta entrenado solamente con imagenes captadas por las camaras realizadas en la etapa de IoT para el proyecto de construcción de la Escuela de Pocosí, por ende este modelo esta sobre-entrenado para realizar inferencias para este proyecto, en caso de que se ponga el modelo a realizar inferencias de otras imagenes, o proyectos diferentes, es posible que el modelo no sea lo esperado en su eficiencia.
